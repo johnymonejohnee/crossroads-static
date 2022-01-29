@@ -1,0 +1,120 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto");
+
+
+
+#home-bg-parallax > .bg-parallax {
+    background: url("../images/background.jpg");
+}
+
+
+
+
+
+#support {
+    background-color: #081b27;
+}
+
+
+
+.contact-card-block {
+    left: 0;
+    padding: 0 20px 0 163px;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+
+#youtube a{
+    color:#333;
+}
+
+
+
+
+
+.footer-logo {
+    max-height: 40px;
+}
+#social .fa{
+    font-size: 3em;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    color: #fff;
+    border-radius: 0.8em; 
+}
+
+
+
+@media (max-width: 500px) {
+    #social .fa{
+        font-size:1em;
+    }
+}
+
+.subscribe-btn{
+    background-color: #b31217;
+ 
+    width:80px;
+    height: 25px;
+    border:solid 1px;
+    border-color: white;
+    border-radius: 7px;
+  
+}
+.colors{
+    background-color: #081b27;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: solid 2px;
+    border-color: black;
+   
+   
+ }
+ .videoWrapper {
+    
+    /* falls back to 16/9, but otherwise uses ratio from HTML */
+    padding-bottom: calc(var(--aspect-ratio, .5625) * 82%); 
+  }
+
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 82%;
+    height: 96%;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Safari 3-8 */
+    transform: scale(1.0); 
+  }
+
+  nav {
+   
+  
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }  
+  nav a {
+    transition: 0.3s ease;
+    
+  }
+  nav a:hover {
+  
+    border-bottom: 1px solid white;
+    padding: 6px 0; 
+  }
+
+  .title-underline-thick-base-color{
+    border-bottom: 5px solid transparent;
+    padding-bottom: 4px;
+    display: inline-block;
+  }
